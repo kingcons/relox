@@ -1,0 +1,3 @@
+(library (name Relox) (public_name relox.lib) (modules (:standard))
+    (libraries base console.lib pastel.lib) (flags -open Base))
+(include_subdirs unqualified)

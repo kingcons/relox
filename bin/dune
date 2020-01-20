@@ -1,0 +1,4 @@
+(executable (name relox_app) (modules (:standard)) (public_name relox.exe)
+    (libraries base cmdliner lwt.unix console.lib pastel.lib relox.lib)
+    (flags -open Base))
+(include_subdirs unqualified)

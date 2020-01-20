@@ -1,0 +1,8 @@
+(Source cli)
+(Cfg_str project_name relox)
+(Cfg_str project_slug relox)
+(Cfg_str project_description"A lox interpreter in ReasonML")
+(Cfg_str author_name"Brit Butler")
+(Cfg_str github_username kingcons)
+(Cfg_str npm_username kingcons)
+(Cfg_str syntax Reason)
